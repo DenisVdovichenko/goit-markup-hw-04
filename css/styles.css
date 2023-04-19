@@ -34,7 +34,12 @@ body {
 
 .header-container {
   display: flex;
+  align-items: center;
   margin-bottom: 96px;
+  border-bottom: 1px solid var(--accent);
+}
+
+.header-position {
   border-bottom: 1px solid var(--accent);
 }
 
