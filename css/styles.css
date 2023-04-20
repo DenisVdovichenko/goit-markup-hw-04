@@ -104,6 +104,13 @@ body {
 
 /* main */
 
+.section-portfolio {
+  padding: 96px 0 120px;
+
+  outline: 2px solid red;
+  background-color: orange;
+}
+
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -116,10 +123,6 @@ body {
 
 .team {
   --items: 4;
-}
-
-.pad {
-  padding-bottom: 120px;
 }
 
 .web-list {
@@ -328,8 +331,6 @@ img {
 .footer-color {
   background-color: var(--title-text);
   padding: 100px 0;
-
-  outline: 2px solid;
 }
 
 .footer-text {
