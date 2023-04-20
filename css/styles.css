@@ -52,6 +52,7 @@ body {
 .adress-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .header-list {
@@ -59,10 +60,6 @@ body {
   flex-direction: row;
   align-items: flex-start;
   gap: 40px;
-}
-
-.position-adress {
-  margin-right: 40px;
 }
 
 .adr {
