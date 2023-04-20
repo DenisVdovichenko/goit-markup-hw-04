@@ -163,6 +163,8 @@ body {
 }
 
 .headline {
+  max-width: 496px;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -192,9 +194,10 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   padding: 16px 32px;
   gap: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -234,6 +237,7 @@ body {
 
 .section-hd-color {
   background-color: var(--title-text);
+  padding: 188px 0;
 }
 
 .name-color {
