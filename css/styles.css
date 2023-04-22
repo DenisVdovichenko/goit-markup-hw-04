@@ -137,11 +137,15 @@ img {
 .card-set {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 48px;
   gap: var(--indent);
 }
 
 .card-set-item {
   width: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+
+.card-list-item {
 }
 
 .team {
@@ -191,6 +195,7 @@ img {
 
 .headline {
   max-width: 496px;
+  justify-content: center;
   margin-bottom: 48px;
 
   font-weight: 700;
@@ -327,6 +332,13 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.container-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* footer */
