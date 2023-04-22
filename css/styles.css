@@ -30,6 +30,32 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* reset start */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
 /* header */
 
 .header-container {
@@ -131,8 +157,9 @@ body {
 
 .group-list {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 72px;
+
   gap: var(--indent);
 }
 
@@ -286,32 +313,6 @@ body {
 
 .par {
   color: var(--primary-text-color);
-}
-
-/* reset start */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-img {
-  display: block;
-}
-
-.list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.link {
-  text-decoration: none;
 }
 
 /* reset end */
