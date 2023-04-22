@@ -259,8 +259,13 @@ img {
 
 .filter:hover,
 .filter:focus {
+  border: 1px solid transparent;
   color: var(--primary-white-color);
   background-color: var(--pressed-state);
+}
+
+.btn-filter {
+  border: 1px solid var(--accent);
 }
 
 .section-hd-color {
