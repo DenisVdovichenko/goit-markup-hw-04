@@ -141,6 +141,12 @@ img {
   row-gap: 48px;
 }
 
+.card-set-adv-about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--indent);
+}
+
 .card-set-item {
   width: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
