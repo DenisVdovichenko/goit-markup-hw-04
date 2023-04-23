@@ -143,6 +143,7 @@ img {
 
 .card-set-item {
   width: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+  row-gap: 48px;
 }
 
 .card-list-item {
@@ -153,9 +154,8 @@ img {
 }
 
 .web-list {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  border-top: none;
+  padding: 32px 16px;
   border: 1px solid var(--accent);
 }
 
@@ -167,7 +167,7 @@ img {
 }
 
 .filter-position {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .about-line {
