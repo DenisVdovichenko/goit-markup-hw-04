@@ -137,7 +137,6 @@ img {
 .card-set {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
   gap: var(--indent);
 }
 
