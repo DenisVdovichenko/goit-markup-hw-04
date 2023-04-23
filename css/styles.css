@@ -162,9 +162,12 @@ img {
 .group-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 72px;
 
   gap: var(--indent);
+}
+
+.filter-position {
+  padding-bottom: 72px;
 }
 
 .about-line {
