@@ -137,6 +137,7 @@ img {
 .card-set {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 48px;
   gap: var(--indent);
 }
 
@@ -182,6 +183,10 @@ img {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.adv-section {
+  padding-bottom: 0px;
 }
 
 .subtitle {
@@ -334,6 +339,8 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  outline: 1px solid orange;
 }
 
 .container-position {
