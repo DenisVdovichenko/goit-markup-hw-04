@@ -146,11 +146,8 @@ img {
   gap: var(--indent);
 }
 
-.card-set-item {
-  width: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-}
-
 .card-list-item {
+  width: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
 .team {
