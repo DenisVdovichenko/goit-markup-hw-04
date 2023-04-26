@@ -286,7 +286,14 @@ img {
 }
 
 .section-hd-color {
-  background-color: var(--title-text);
+  /* background-color: var(--title-text); */
+  background-image: url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-position: center;
+  /* background-image: url(../images/Dark-bg.png); */
+  background-color: rgba(46, 47, 66, 0.7);
   padding: 188px 0;
 }
 
@@ -337,6 +344,8 @@ img {
   color: var(--primary-text-color);
 }
 
+.advantages-icon {
+}
 /* reset end */
 
 .container {
