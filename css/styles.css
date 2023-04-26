@@ -66,7 +66,6 @@ img {
 }
 
 .header-position {
-  border-bottom: 1px solid var(--accent);
 }
 
 .header-nav {
@@ -148,10 +147,10 @@ img {
 }
 
 .card-set-item {
+  width: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
 .card-list-item {
-  width: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
 .team {
