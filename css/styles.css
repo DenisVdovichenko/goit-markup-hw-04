@@ -192,10 +192,6 @@ img {
   padding-bottom: 120px;
 }
 
-/* .adv-section {
-  padding-bottom: 0px;
-} */
-
 .subtitle {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -359,9 +355,15 @@ img {
 }
 
 .advantages-icon {
-  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
+  background-color: var(--light-mode);
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
+
 /* reset end */
 
 .container {
