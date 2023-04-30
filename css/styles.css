@@ -487,3 +487,18 @@ img {
 .logo-down {
   color: var(--light-mode);
 }
+
+.title-footer {
+  color: var(--primary-white-color);
+  margin-bottom: 16px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-list {
+  display: flex;
+  gap: 16px;
+}
