@@ -511,3 +511,22 @@ img {
   display: flex;
   gap: 16px;
 }
+
+.footer-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-text);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--success);
+}
+
+.icon-footer {
+  fill: var(--light-mode);
+}
